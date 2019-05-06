@@ -25,10 +25,10 @@ public class IndexOfInteger {
 	}
 	public static void main(String[] args)
 	{
-		Integer[] arr = {1,2,3,4,5,6,9,8,1,5,6,48,7,1,3,5,441,1,3,1,3,1,96,1};
+		Integer[] arr = {1,2,3,4,5,6,9,8,1,5,6,48,7,1,3,5,441,1,3,1,3,1,96,1};  // change array list here
 		List<Integer> indexOfArr = new ArrayList<>();
-		indexOfArr = findIndex(arr, 96);
-		 //System.out.println();
+		indexOfArr = findIndex(arr, 96);										// change a value to find index here.
+		
 		 System.out.println("Index position of 1 is: "
                  + indexOfArr.toString()); 
 		 System.out.println("Index position of 1 is: "
